@@ -1,0 +1,32 @@
+.profile h1 {
+  font-weight: 600;
+  letter-spacing: -2px;
+  font-size: 3em;
+  color: #222;
+  margin-bottom: 20px;
+  line-height: 1em;
+}
+
+.profile h2 {
+  font-size: 1.4em;
+  color: #ff9800;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.profile p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .profile h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  .profile h2 {
+    margin-bottom: 20px;
+  }
+}
