@@ -1,15 +1,3 @@
-section.portfolio {
-  background-color: #F7F8FA;
-}
-
-section.portfolio .title {
-  color: darkorange;
-  text-align: center;
-  font-size: 2em;
-  padding: 2em 0;
-  font-weight: 700;
-}
-
 .portfolio-wrapper {
   display: flex;
   justify-content: center;

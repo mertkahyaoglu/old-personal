@@ -1,3 +1,6 @@
+export * from './reset.css'
+export * from './general.css'
+
 // home sections
 export * from './about.css'
 export * from './portfolio.css'
@@ -6,6 +9,4 @@ export * from './portfolio.css'
 export * from './nav_menu.css'
 export * from './profile.css'
 export * from './social_menu.css'
-
-// projects
-export * from './project.css'
+export * from './skills.css'

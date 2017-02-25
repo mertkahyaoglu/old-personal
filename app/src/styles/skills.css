@@ -1,0 +1,44 @@
+.skills {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.skills-wrapper {
+  flex: 1;
+  border-right: 1px dashed #bbb;
+}
+
+.skills-wrapper:last-child {
+  border: none;
+}
+
+.skills-wrapper h4{
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.skills-wrapper > div{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill-wrapper {
+  padding: 15px;
+}
+
+.skill-wrapper img {
+  height: 70px;
+}
+
+@media (max-width: 768px) {
+  .skills {
+    flex-direction: column;
+  }
+  .skills-wrapper {
+    margin-bottom: 20px;
+  }
+}
