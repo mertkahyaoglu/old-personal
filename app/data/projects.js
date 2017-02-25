@@ -58,6 +58,18 @@ var projects = [
       ]
   },
   {
+      "title" : "Tetris",
+      "description" : "Classic tetris game with scoreboard showing 10 highest scores.",
+      "link" : "http://ec2-35-160-20-129.us-west-2.compute.amazonaws.com/",
+      "github" : "https://github.com/mertkahyaoglu/tetris",
+      "image" : "images/projects/tetris.jpg",
+      "tags" : [
+        {"name":"reactjs", "color":"#61DAFB"},
+        {"name":"flask", "color":"#000000"},
+        {"name":"mongodb", "color":"#439945"},
+      ]
+  },
+  {
       "title" : "BrainBalls",
       "description" : "BrainBalls is a memory game that you try to remember sequences of balls. The game is created with Phaser.js for web application and used LibGDX for Android version.",
       "link" : "http://mertkahyaoglu.github.io/brainballs/",
