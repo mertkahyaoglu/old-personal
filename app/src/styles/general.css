@@ -18,12 +18,24 @@ hr {
   margin: 15px 0 !important;
 }
 
+main {
+  background-color: #F7F8FA;
+}
+
 .container {
   position: relative;
   margin-left: auto;
   margin-right: auto;
   padding-right: 2rem;
   padding-left: 2rem;
+}
+
+.title {
+  color: darkorange;
+  text-align: center;
+  font-size: 2em;
+  padding: 2em 0;
+  font-weight: 700;
 }
 
 @media (min-width: 768px) {
