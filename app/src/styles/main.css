@@ -69,12 +69,15 @@ main {
   color: darkorange;
 }
 
+@media (max-width: 768px) {
+  .sticky-menu {display: none}
+}
+
 @media (min-width: 768px) {
   .container {
     width: 720px;
     max-width: 100%;
   }
-  .sticky-menu {display: none}
 }
 
 @media (min-width: 992px) {
