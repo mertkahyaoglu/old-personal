@@ -74,6 +74,7 @@ main {
     width: 720px;
     max-width: 100%;
   }
+  .sticky-menu {display: none}
 }
 
 @media (min-width: 992px) {
