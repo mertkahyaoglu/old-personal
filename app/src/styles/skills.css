@@ -36,9 +36,10 @@
 
 @media (max-width: 768px) {
   .skills {
-    flex-direction: column;
+    display: inline-block;
   }
   .skills-wrapper {
+    border: none;
     margin-bottom: 20px;
   }
 }

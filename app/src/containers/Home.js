@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Waypoint from 'react-waypoint';
 
 import Profile from '../components/Profile'
 import NavMenu from '../components/NavMenu'
@@ -10,6 +11,26 @@ import projects from '../../data/projects'
 import skills from '../../data/skills'
 
 class Home extends Component {
+
+  constructor() {
+    super()
+
+    this.state = {
+      show_menu: false
+    }
+
+    this.handleWaypointEnter = this.handleWaypointEnter.bind(this)
+    this.handleWaypointLeave = this.handleWaypointLeave.bind(this)
+  }
+
+  handleWaypointEnter() {
+    this.setState({show_menu: false})
+  }
+
+  handleWaypointLeave() {
+    this.setState({show_menu: true})
+  }
+
   render() {
     return (
       <div className="content">
@@ -29,7 +50,13 @@ class Home extends Component {
           </div>
         </section>
 
+        <Waypoint
+          topOffset={10}
+          onEnter={this.handleWaypointEnter}
+          onLeave={this.handleWaypointLeave} />
+
         <main>
+
           <section className="skills" id="skills">
             <div className="container">
               <h3 id="skills" className="title">{"< Skills />"}</h3>
@@ -79,7 +106,15 @@ class Home extends Component {
               </div>
             </div>
           </section>
+
         </main>
+
+        {
+          this.state.show_menu &&
+            <div className="sticky-menu">
+              <NavMenu />
+            </div>
+        }
       </div>
     )
   }

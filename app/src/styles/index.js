@@ -1,5 +1,5 @@
 export * from './reset.css'
-export * from './general.css'
+export * from './main.css'
 
 // home sections
 export * from './about.css'

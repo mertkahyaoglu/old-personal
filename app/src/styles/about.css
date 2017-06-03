@@ -73,6 +73,9 @@ nav {
     transform: none;
     padding: 2rem;
   }
+  section.about {
+    height: auto;
+  }
 }
 
 @media (min-width: 769px) {

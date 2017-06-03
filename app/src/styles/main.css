@@ -38,6 +38,37 @@ main {
   font-weight: 700;
 }
 
+.sticky-menu {
+  transition: opacity 0.3s;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: white;
+  padding: 10px 40px 6px 40px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+.sticky-menu ul{
+  display: inline-block;
+}
+
+.sticky-menu li{
+  float: left;
+  margin: 0 15px;
+}
+
+.sticky-menu a{
+  font-size: 18px;
+  color: orange;
+  text-decoration: none;
+}
+
+.sticky-menu a:hover{
+  color: darkorange;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 720px;

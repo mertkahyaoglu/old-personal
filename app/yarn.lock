@@ -1325,6 +1325,10 @@ console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
 
+consolidated-events@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/consolidated-events/-/consolidated-events-1.0.1.tgz#70f475f4a5d6d20428e702da1b8870d9cc031a14"
+
 constants-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/constants-browserify/-/constants-browserify-1.0.0.tgz#c20b96d8c617748aaf1c16021760cd27fcb8cb75"
@@ -4331,6 +4335,12 @@ react-scripts:
     whatwg-fetch "1.0.0"
   optionalDependencies:
     fsevents "1.0.14"
+
+react-waypoint:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/react-waypoint/-/react-waypoint-5.3.0.tgz#83d5064fa5e615bf446244b79fff651094814989"
+  dependencies:
+    consolidated-events "^1.0.1"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
