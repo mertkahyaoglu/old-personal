@@ -136,6 +136,33 @@ var projects = [
       ]
   },
   {
+      "title" : "Woodezza (Commercial)",
+      "description" : "Woodezza.com is an e-commerce website that you can purchase natural and wooden kitchen countertops.",
+      "link" : "https://www.woodezza.com",
+      "image" : "images/projects/woodezza.jpg",
+      "tags" : [
+          {"name":"laravel", "color":"#DC5A56"}
+      ]
+  },
+  {
+      "title" : "İthal Gurme (Commercial)",
+      "description" : "Ithalgurme.com is an e-commerce website that you can purchase sauces, world cheeses, Far East spices & sauces and discover new recipes.",
+      "link" : "https://ithalgurme.com/",
+      "image" : "images/projects/ithalgurme.jpg",
+      "tags" : [
+          {"name":"laravel", "color":"#DC5A56"}
+      ]
+  },
+  {
+      "title" : "Lara Home (Commercial)",
+      "description" : "Larahome.com.tr is an e-commerce website that you can purchase luxury home accessories, bedsets and baby cots.",
+      "link" : "https://www.larahome.com.tr",
+      "image" : "images/projects/larahome.jpg",
+      "tags" : [
+          {"name":"laravel", "color":"#DC5A56"}
+      ]
+  },
+  {
       "title" : "My GitHub Page",
       "description" : "This is my Github Page built with ReactJS. You can see my projects here.",
       "link" : "/",
