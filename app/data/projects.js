@@ -154,22 +154,21 @@ var projects = [
       ]
   },
   {
+      "title" : "Transfer Datça (Commercial)",
+      "description" : "Transfer Datça is a Class A travel agency which makes private and shared airport transfers between Datça and Dalaman Airport.",
+      "link" : "https://www.transferdatca.net/",
+      "image" : "images/projects/transferdatca.jpg",
+      "tags" : [
+          {"name":"laravel", "color":"#DC5A56"}
+      ]
+  },
+  {
       "title" : "Lara Home (Commercial)",
       "description" : "Larahome.com.tr is an e-commerce website that you can purchase luxury home accessories, bedsets and baby cots.",
       "link" : "https://www.larahome.com.tr",
       "image" : "images/projects/larahome.jpg",
       "tags" : [
           {"name":"laravel", "color":"#DC5A56"}
-      ]
-  },
-  {
-      "title" : "My GitHub Page",
-      "description" : "This is my Github Page built with ReactJS. You can see my projects here.",
-      "link" : "/",
-      "github" : "https://github.com/mertkahyaoglu/mertkahyaoglu.github.io",
-      "image" : "images/projects/personal.jpg",
-      "tags" : [
-          {"name":"reactjs", "color":"#61DAFB"}
       ]
   }
 ]
