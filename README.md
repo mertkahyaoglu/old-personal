@@ -1,4 +1,4 @@
-[My Github Page] (http://mertkahyaoglu.github.io/)
+[My Github Page](http://mertkahyaoglu.github.io/)
 =======================
 
 > This is my Github Page built with ReactJS.
