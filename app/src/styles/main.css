@@ -69,6 +69,13 @@ main {
   color: darkorange;
 }
 
+.github-ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}
+
 @media (max-width: 768px) {
   .sticky-menu {display: none}
 }
