@@ -76,6 +76,12 @@ main {
   border: 0;
 }
 
+.iyzico {
+  color: #00D2D3;
+  font-style: 700;
+  text-decoration: none;
+}
+
 @media (max-width: 768px) {
   .sticky-menu {display: none}
 }
