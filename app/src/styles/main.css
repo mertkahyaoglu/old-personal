@@ -1,5 +1,5 @@
 body {
-  font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #666;
   line-height: 1.5em;
   letter-spacing: 1px;
@@ -19,7 +19,7 @@ hr {
 }
 
 main {
-  background-color: #F7F8FA;
+  background-color: #f7f8fa;
 }
 
 .container {
@@ -50,22 +50,22 @@ main {
   text-align: center;
 }
 
-.sticky-menu ul{
+.sticky-menu ul {
   display: inline-block;
 }
 
-.sticky-menu li{
+.sticky-menu li {
   float: left;
   margin: 0 15px;
 }
 
-.sticky-menu a{
+.sticky-menu a {
   font-size: 18px;
   color: orange;
   text-decoration: none;
 }
 
-.sticky-menu a:hover{
+.sticky-menu a:hover {
   color: darkorange;
 }
 
@@ -77,13 +77,21 @@ main {
 }
 
 .iyzico {
-  color: #00D2D3;
+  color: #00d2d3;
   font-style: 700;
   text-decoration: none;
 }
 
 @media (max-width: 768px) {
-  .sticky-menu {display: none}
+  .forkme {
+    display: none;
+  }
+  .sticky-menu {
+    padding: 15px 0 6px 0;
+  }
+  .sticky-menu a {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 768px) {

@@ -1,8 +1,12 @@
-.social_menu li{
-  float: left;
+.social_menu {
+  display: flex;
+  align-items: center;
+}
+
+.social_menu div {
   margin-right: 16px;
 }
 
-.social_menu img{
+.social_menu img {
   height: 24px;
 }
