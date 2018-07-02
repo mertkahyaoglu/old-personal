@@ -35,6 +35,10 @@ var skills = {
       image: 'images/logos/react-native.png',
     },
     {
+      name: 'graphql',
+      image: 'images/logos/graphql.png',
+    },
+    {
       name: 'laravel',
       image: 'images/logos/laravel.png',
     },
