@@ -35,10 +35,6 @@ var skills = {
       image: 'images/logos/react-native.png',
     },
     {
-      name: 'coffeescript',
-      image: 'images/logos/coffee.png',
-    },
-    {
       name: 'laravel',
       image: 'images/logos/laravel.png',
     },
