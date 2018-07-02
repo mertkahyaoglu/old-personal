@@ -1,5 +1,17 @@
 var projects = [
   {
+    title: 'iyzico Merchant Control Panel',
+    description:
+      'iyzico control panel is a single page application for merchants that allows them check out payments, perform transactions such as cancellation and return and more.',
+    link: 'https://sandbox-merchant.iyzipay.com/',
+    image: 'images/projects/spm.jpg',
+    tags: [
+      { name: 'reactjs', color: '#61DAFB' },
+      { name: 'redux', color: '#9772D0' },
+      { name: 'graphql', color: '#FD00A7' },
+    ],
+  },
+  {
     title: 'Jekyll Admin - GSoC Project',
     description:
       'A Jekyll plugin that provides users with a traditional CMS-style graphical interface to author content and administer Jekyll sites.',
