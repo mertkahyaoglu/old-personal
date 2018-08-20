@@ -7,17 +7,11 @@
   },
   "dependencies": {
     "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-redux": "^5.0.1",
-    "react-router": "^4.2.0",
-    "react-router-redux": "^4.0.8",
-    "redux": "^4.0.0",
-    "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0"
+    "react-dom": "^16.4.2"
   },
   "scripts": {
     "start": "npm run watch-css & react-scripts start",
-    "build": "react-scripts build && sw-precache --config=sw-config.js",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
