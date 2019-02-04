@@ -9,12 +9,12 @@ var skills = {
       image: 'images/logos/py.png',
     },
     {
-      name: 'php',
-      image: 'images/logos/php.png',
-    },
-    {
       name: 'elixir',
       image: 'images/logos/elixir.png',
+    },
+    {
+      name: 'php',
+      image: 'images/logos/php.png',
     },
     {
       name: 'java',
@@ -45,15 +45,7 @@ var skills = {
     {
       name: 'phoenix',
       image: 'images/logos/phoenix.png',
-    },
-    {
-      name: 'android',
-      image: 'images/logos/android.png',
-    },
-    {
-      name: 'git',
-      image: 'images/logos/git.png',
-    },
+    }
   ],
   storage: [
     {
