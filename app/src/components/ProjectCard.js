@@ -9,7 +9,7 @@ const Tag = ({ color, tag }) => (
 
 const Github = ({ githubLink }) => (
   <li>
-    <a target="_blank" href={githubLink}>
+    <a  target="_blank" href={githubLink} rel="noopener">
       <img src={img_github} alt="github/mertkahyaoglu" />
     </a>
   </li>
@@ -17,7 +17,7 @@ const Github = ({ githubLink }) => (
 
 const Android = ({ playLink }) => (
   <li>
-    <a target="_blank" href={playLink}>
+    <a target="_blank" href={playLink} rel="noopener">
       <img src={img_android} alt="google play" />
     </a>
   </li>
@@ -26,12 +26,12 @@ const Android = ({ playLink }) => (
 const ProjectCard = ({ project }) => (
   <div className="project-wrapper">
     <div className="project">
-      <a target="_blank" href={project.link}>
+      <a target="_blank" href={project.link} rel="noopener">
         <img src={project.image} alt="Mert Kahyaoğlu" />
       </a>
       <div className="description">
         <h3>
-          <a target="_blank" href={project.link}>
+          <a target="_blank" href={project.link} rel="noopener">
             {project.title}
           </a>
         </h3>
