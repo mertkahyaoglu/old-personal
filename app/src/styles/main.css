@@ -1,6 +1,7 @@
 body {
   font: 16px/1 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #666;
+  color: #554d56;
+  background-color: #fff;
   line-height: 1.5em;
   letter-spacing: 1px;
   -webkit-font-smoothing: antialiased;
@@ -19,7 +20,7 @@ hr {
 }
 
 main {
-  background-color: #f7f8fa;
+  background-color: #fbfbfb;
 }
 
 .container {
